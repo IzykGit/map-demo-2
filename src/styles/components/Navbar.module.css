@@ -1,0 +1,22 @@
+
+
+.navbar {
+    height: 4rem;
+    background-color: black;
+
+    padding: 0rem 8rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar > button {
+    color: white;
+    border: none;
+    background-color: transparent;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    cursor: pointer;
+}
