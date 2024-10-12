@@ -22,7 +22,7 @@ const App = () => {
             <Navbar showMap={showMap}/>
 
             {mapState && <Map />}
-            {/* setting window width on screen */}
+            {/* setting max window width on screen */}
             <div style={{ maxWidth: "1500px", padding: "8rem" }}>
                 <main>
                     <NewsBlock />
