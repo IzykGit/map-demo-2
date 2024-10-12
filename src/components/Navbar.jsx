@@ -1,14 +1,11 @@
-import React, { useState } from 'react'
-
 import NavStyles from "../styles/components/Navbar.module.css"
 
-const Navbar = () => {
+const Navbar = ({ showMap }) => {
 
-    const [mapState, setMapState] = useState(false)
 
     return (
         <nav className={NavStyles.navbar}>
-            <button type='button' onClick={() => setMapState(!mapState)}>Map</button>
+            <button type='button' onClick={showMap}>Map</button>
         </nav>
     )
 }

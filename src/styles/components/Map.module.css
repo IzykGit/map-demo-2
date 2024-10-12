@@ -1,0 +1,10 @@
+
+
+.svg_path {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.svg_path:hover {
+    transform: scale(1.01);
+}

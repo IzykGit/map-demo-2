@@ -1,0 +1,23 @@
+
+
+.news_component {
+    height: fit-content;
+}
+
+.news_component > h2 {
+    font-size: 2.5rem;
+}
+
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news_card {
+    height: 15rem;
+    width: 15rem;
+
+    border: black;
+    background-color: grey;
+}
