@@ -1,27 +1,5 @@
 
 
-.svg_container {
+.map_overlap {
     position: absolute;
-
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
-.svg {
-    width: 90rem;
-}
-
-.svg_path {
-    cursor: pointer;
-    transition: 0.2s;
-    
-    fill: rgb(0, 0, 255);
-    stroke-width: 1px;
-}
-
-.svg_path:hover {
-    transform: scale(1.01);
 }
