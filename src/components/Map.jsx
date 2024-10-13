@@ -42,7 +42,7 @@ const Map = () => {
         {filteredCountries.length == 0 ? (
           <div>
             {countries.map((country, index) => (
-              <p key={index}>{country.country}</p>
+              <p key={index} className={MapStyles.country_name}>{country.country}</p>
             ))}
           </div>
         ) : (
@@ -50,7 +50,7 @@ const Map = () => {
             <div className={MapStyles.country_name}>
               {filteredCountries.map((country, index) => (
                 <div key={index}>
-                  <p>{country.country}</p>
+                  <p className={MapStyles.country_name}>{country.country}</p>
                   {filteredCountries.length < 5 && (
                     <img
                       src={country.flag}
